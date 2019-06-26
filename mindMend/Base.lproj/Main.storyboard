@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_0" orientation="portrait">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,35 +15,47 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="mindMend" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MIND:MEND" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jcm-QT-96J">
-                                <rect key="frame" x="74" y="128" width="179" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MIND:MEND" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jcm-QT-96J">
+                                <rect key="frame" x="74" y="128" width="273" height="44"/>
                                 <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="33"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xcu-fr-Jw0">
-                                <rect key="frame" x="16" y="210" width="288" height="338"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.99953407049999998" green="0.98835557699999999" blue="0.47265523669999998" alpha="0.44483090753424659" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="13"/>
-                                <state key="normal" title="tap anywhere to enter">
-                                    <color key="titleColor" red="0.53205170075644459" green="0.53867333250733962" blue="0.58988340736040601" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="titleShadowColor" red="0.9903671616233376" green="1" blue="0.70945502878398981" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;pour magic into your mind&quot;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DnP-C0-ow4">
-                                <rect key="frame" x="84" y="190" width="159" height="12"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&quot;magic for your mind&quot;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DnP-C0-ow4">
+                                <rect key="frame" x="102" y="190" width="218" height="12"/>
                                 <fontDescription key="fontDescription" name="HoeflerText-BlackItalic" family="Hoefler Text" pointSize="12"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xcu-fr-Jw0">
+                                <rect key="frame" x="16" y="222" width="382" height="270"/>
+                                <color key="backgroundColor" red="0.99953407049999998" green="0.98835557699999999" blue="0.47265523669999998" alpha="0.44483090753424659" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="13"/>
+                                <state key="normal" title="tap to enter" backgroundImage="il_340x270.1157753877_7ddu">
+                                    <color key="titleColor" red="0.23646806664828879" green="0.24159702827336013" blue="0.26397921954314707" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.9903671616233376" green="1" blue="0.70945502878398981" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="WGe-CD-wxF" kind="show" id="Ynw-QM-0Uk"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.91464728116989136" green="0.91581743955612183" blue="0.99299114942550659" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jcm-QT-96J" secondAttribute="trailing" constant="67" id="3cv-tl-ocC"/>
+                            <constraint firstItem="xcu-fr-Jw0" firstAttribute="top" secondItem="DnP-C0-ow4" secondAttribute="bottom" constant="20" id="COX-ju-ZE8"/>
+                            <constraint firstItem="xcu-fr-Jw0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="CeA-Is-NgE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xcu-fr-Jw0" secondAttribute="trailing" constant="16" id="H2y-pQ-f8g"/>
+                            <constraint firstItem="jcm-QT-96J" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="108" id="LNx-aT-6FB"/>
+                            <constraint firstItem="DnP-C0-ow4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="102" id="aa3-8e-e98"/>
+                            <constraint firstItem="DnP-C0-ow4" firstAttribute="top" secondItem="jcm-QT-96J" secondAttribute="bottom" constant="18" id="cTH-bm-lmK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="xcu-fr-Jw0" secondAttribute="bottom" constant="244" id="ifA-R9-Ack"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DnP-C0-ow4" secondAttribute="trailing" constant="94" id="qh9-bK-fgY"/>
+                            <constraint firstItem="jcm-QT-96J" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="74" id="st4-7p-gIY"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -51,5 +63,143 @@
             </objects>
             <point key="canvasLocation" x="138.75" y="129.92957746478874"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="ByX-W8-SeZ">
+            <objects>
+                <viewController id="WGe-CD-wxF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8Em-IR-zY7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="HOMEPAGE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d9Q-Hd-Y8m">
+                                <rect key="frame" x="166" y="45" width="82" height="27"/>
+                                <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="06s-XS-M8L">
+                                <rect key="frame" x="20" y="92" width="374" height="101"/>
+                                <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="25"/>
+                                <state key="normal" title="Activities" backgroundImage="il_340x270.1157753877_7ddu">
+                                    <color key="titleColor" red="0.3294294370006749" green="0.33055158966600129" blue="0.36300364847715738" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="5gN-cS-klo" kind="show" id="cjK-um-pyp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MqP-2X-QGe">
+                                <rect key="frame" x="20" y="561" width="374" height="104"/>
+                                <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="25"/>
+                                <state key="normal" title="Music" backgroundImage="il_340x270.1157753877_7ddu">
+                                    <color key="titleColor" red="0.32942943699999999" green="0.33055158969999998" blue="0.3630036485" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="hsj-1C-Mky" kind="show" id="jx7-FS-0Io"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pq6-6c-kxv">
+                                <rect key="frame" x="20" y="407" width="374" height="101"/>
+                                <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="25"/>
+                                <state key="normal" title="Quotes" backgroundImage="il_340x270.1157753877_7ddu">
+                                    <color key="titleColor" red="0.32942943699999999" green="0.33055158969999998" blue="0.3630036485" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yvp-BV-zle">
+                                <rect key="frame" x="20" y="251" width="374" height="102"/>
+                                <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="25"/>
+                                <state key="normal" title="Awareness" backgroundImage="il_340x270.1157753877_7ddu">
+                                    <color key="titleColor" red="0.32942943699999999" green="0.33055158969999998" blue="0.3630036485" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.91338117870000002" green="0.91876919069999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Hxj-tf-59u" firstAttribute="bottom" secondItem="MqP-2X-QGe" secondAttribute="bottom" constant="27" id="4PM-Br-eMX"/>
+                            <constraint firstItem="Yvp-BV-zle" firstAttribute="top" secondItem="06s-XS-M8L" secondAttribute="bottom" constant="58" id="4ee-hV-bLZ"/>
+                            <constraint firstItem="Hxj-tf-59u" firstAttribute="trailing" secondItem="MqP-2X-QGe" secondAttribute="trailing" constant="20" id="7CA-vi-eo1"/>
+                            <constraint firstItem="d9Q-Hd-Y8m" firstAttribute="top" secondItem="Hxj-tf-59u" secondAttribute="top" constant="25" id="8JF-Af-Hu7"/>
+                            <constraint firstItem="Yvp-BV-zle" firstAttribute="leading" secondItem="Hxj-tf-59u" secondAttribute="leading" constant="20" id="FOK-8o-L1j"/>
+                            <constraint firstItem="MqP-2X-QGe" firstAttribute="top" secondItem="Pq6-6c-kxv" secondAttribute="bottom" constant="53" id="JiI-cE-hDr"/>
+                            <constraint firstItem="Pq6-6c-kxv" firstAttribute="leading" secondItem="Hxj-tf-59u" secondAttribute="leading" constant="20" id="KfR-PM-Wdb"/>
+                            <constraint firstItem="06s-XS-M8L" firstAttribute="leading" secondItem="Hxj-tf-59u" secondAttribute="leading" constant="20" id="Lbt-II-fy3"/>
+                            <constraint firstItem="06s-XS-M8L" firstAttribute="top" secondItem="d9Q-Hd-Y8m" secondAttribute="bottom" constant="20" id="ULg-do-jnk"/>
+                            <constraint firstItem="Hxj-tf-59u" firstAttribute="trailing" secondItem="06s-XS-M8L" secondAttribute="trailing" constant="20" id="Ulc-PB-8p8"/>
+                            <constraint firstItem="d9Q-Hd-Y8m" firstAttribute="leading" secondItem="Hxj-tf-59u" secondAttribute="leading" constant="166" id="Xyn-HL-cpt"/>
+                            <constraint firstItem="Hxj-tf-59u" firstAttribute="trailing" secondItem="Pq6-6c-kxv" secondAttribute="trailing" constant="20" id="ao7-qn-X3Q"/>
+                            <constraint firstItem="Pq6-6c-kxv" firstAttribute="top" secondItem="Yvp-BV-zle" secondAttribute="bottom" constant="54" id="cFa-jO-w7E"/>
+                            <constraint firstItem="MqP-2X-QGe" firstAttribute="leading" secondItem="Hxj-tf-59u" secondAttribute="leading" constant="20" id="mw3-3F-Kmj"/>
+                            <constraint firstItem="Hxj-tf-59u" firstAttribute="trailing" secondItem="d9Q-Hd-Y8m" secondAttribute="trailing" constant="166" id="sQ0-8o-RCL"/>
+                            <constraint firstItem="Hxj-tf-59u" firstAttribute="trailing" secondItem="Yvp-BV-zle" secondAttribute="trailing" constant="20" id="zS5-c4-vRN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Hxj-tf-59u"/>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem title="Item" systemItem="rewind" id="Gu5-Fa-E7B">
+                            <color key="tintColor" red="0.65587174959308447" green="0.65810587972613821" blue="0.72271573604060912" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </barButtonItem>
+                    </toolbarItems>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2G6-5V-Nfz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="843.47826086956525" y="129.61956521739131"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="GWq-MJ-Un5">
+            <objects>
+                <viewController id="5gN-cS-klo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="t3a-SI-6c8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tUw-71-XtO">
+                                <rect key="frame" x="0.0" y="101" width="358" height="184"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="25"/>
+                                <state key="normal" title="YOGA" backgroundImage="il_340x270.1157753877_7ddu">
+                                    <color key="titleColor" red="0.32942943699999999" green="0.33055158969999998" blue="0.3630036485" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RDN-Ye-eRL">
+                                <rect key="frame" x="20" y="432" width="374" height="101"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="25"/>
+                                <state key="normal" title="BOOKS" backgroundImage="il_340x270.1157753877_7ddu">
+                                    <color key="titleColor" red="0.32942943699999999" green="0.33055158969999998" blue="0.3630036485" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.91338117870000002" green="0.91876919069999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="nWu-32-8zv"/>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem title="Item" systemItem="rewind" id="45C-Vt-8yE">
+                            <color key="tintColor" red="0.32942943699999999" green="0.33055158969999998" blue="0.3630036485" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </barButtonItem>
+                    </toolbarItems>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Tu-1t-VsD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1892.753623188406" y="-200.54347826086959"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="uR4-jf-xKG">
+            <objects>
+                <viewController id="hsj-1C-Mky" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bFQ-95-Tam">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.91338117870000002" green="0.91876919069999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="jqI-cT-jWe"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cfy-ax-YyD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1894" y="502"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="il_340x270.1157753877_7ddu" width="340" height="270"/>
+    </resources>
 </document>
