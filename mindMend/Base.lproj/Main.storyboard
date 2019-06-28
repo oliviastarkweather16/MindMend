@@ -327,17 +327,6 @@
                                 <rect key="frame" x="0.0" y="84" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Jk-lR-uKh">
-                                <rect key="frame" x="91" y="658" width="232" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="17"/>
-                                <state key="normal" title="tap here for more" backgroundImage="il_340x270.1157753877_7ddu">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="Bfq-Fs-6Tj" kind="show" id="pDH-3z-vui"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.95396655797958374" green="0.94897550344467163" blue="0.99581164121627808" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Oge-LW-b6F"/>
@@ -346,35 +335,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hRR-Av-XZl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2844.9275362318845" y="-341.57608695652175"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="mj2-H1-XiY">
-            <objects>
-                <viewController id="Bfq-Fs-6Tj" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Xhu-MK-7kL">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7B1-WM-Lou">
-                                <rect key="frame" x="87" y="113" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <wkWebViewConfiguration key="configuration">
-                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
-                                    <wkPreferences key="preferences"/>
-                                </wkWebViewConfiguration>
-                            </wkWebView>
-                        </subviews>
-                        <color key="backgroundColor" red="0.95396655799999996" green="0.94897550340000003" blue="0.99581164119999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="tpL-wk-Ryf"/>
-                    </view>
-                    <toolbarItems/>
-                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="DP3-Yx-Apb" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3595" y="-344"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="sTo-Ia-YRL">
@@ -629,13 +589,12 @@
         <image name="crescent-pose-high-lunge" width="1024" height="1024"/>
         <image name="exercise-1801507_1280-813x1024" width="813" height="1024"/>
         <image name="final_collection-04-512" width="512" height="512"/>
-        <image name="il_340x270.1157753877_7ddu" width="340" height="270"/>
         <image name="mountain-pose-567x567" width="567" height="567"/>
         <image name="quotes" width="401" height="587"/>
         <image name="volcano-salutation-1" width="900" height="675"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="lgo-MK-ktb"/>
+        <segue reference="qzl-pb-fSp"/>
         <segue reference="Nwg-n1-O4s"/>
     </inferredMetricsTieBreakers>
 </document>
